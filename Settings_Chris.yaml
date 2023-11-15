@@ -10,9 +10,9 @@ BIKE_DTL: 2.0         # % loss to drive train  - see Summary.csv
 AH_CF: 1.22           # Aerohead Rider Compensation Factor or Correction Factor
 
 # Wheel settings usually refer to the front wheel where the speed sensor is positioned 
-WHEEL_CIRC_ACTUAL: 2105 # lap lengths look too long with 2105mm
+WHEEL_CIRC_ACTUAL: 2100 # lap lengths look too long with 2105mm, 2100mm is better fit for air speed
 WHEEL_CIRC_BR_SETTING: 2105  # work this out from odo speed 
-REAR_WHEEL_CIRC: 2100   # 3mm less than front wheel 
+REAR_WHEEL_CIRC: 2098   # 2mm less than front wheel 
 CHAINRING: 53.0         # could change!
 SPROCKET: 14           # NOT actually using fixed value as it may change between (and in!) test runs! (see code under Add MORE FIELDS where sprocket is calculated)
 

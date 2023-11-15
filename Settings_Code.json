@@ -1,7 +1,7 @@
 {
     "VELO_SET_CORRECT": true,
-    "RIDER_SET_CORRECT": false,
-    "TESTRUNS_SET_CORRECT": false,
+    "RIDER_SET_CORRECT": true,
+    "TESTRUNS_SET_CORRECT": true,
     "YAML_CHANGED_CIRC_GEAR": true,
     "GLOBAL_PUBLIC_LAPS_CORRECT": true,
     "MISSING_LAP_DATA_HANDLED": true,
@@ -10,11 +10,11 @@
     "MATCH_METHOD_LAP": true,
     "POWER_LR_SWAP": true,
     "GLOBAL_PUBLIC_FIELDS_MATCH": true,
-    "LAP_DISTs_OK": false,
+    "LAP_DISTs_OK": true,
     "TARCK_POS_CORRECT": true,
     "Track_Speed_CORRECT": true,
     "BR_WHEEL_CIRC_SET_CORRECT": true,
-    "CRANK_SPD_CORRECT": false,
+    "CRANK_SPD_CORRECT": true,
     "Cadence_Speed_CORRECT": true,
     "OdoRevTime_Speed_CORRECT": true,
     "Rider_Weight_CORRECT": true,
@@ -25,5 +25,6 @@
     "RUN_PEAKS_SPIKES": false,
     "DATA_CLEAN_COMPLETED": true,
     "CLEANED_FIELDS_SELECTED": true,
-    "CLEANED_FIELDS_CHECKED": true
+    "CLEANED_FIELDS_CHECKED": true,
+    "WHEEL_CIRC_OVERRIDE": true
 }
